@@ -1,0 +1,87 @@
+.bartersList__item {
+	margin: 0 10px 10px 10px;
+	border-radius: 15px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	overflow: hidden;
+	box-shadow: 0px 2px 3px 2px rgba(34, 60, 80, 0.2);
+}
+
+.bartersList__item-head {
+	background: rgb(62, 138, 231);
+	color: #fff;
+	padding: 15px;
+}
+
+.bartersList__item-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	color: #333;
+	padding: 15px;
+}
+
+.bartersList__item-body span {
+	font-weight: bold;
+}
+
+.bartersList__item:hover {
+	transform: scale(1.01);
+}
+
+.bartersList__item-icons {
+	display: flex;
+	align-items: flex-end;
+	margin-left: 15px;
+}
+
+.bartersList__item-icons i {
+	margin: 2px;
+}
+
+.bartersList__item-icons i:hover {
+	transform: scale(1.1);
+}
+
+.bartersList__loading,
+.bartersList__newBarter-loading {
+	padding: 15px;
+}
+
+.bartersList__item-head-edit-wrapper {
+	background: rgb(62, 138, 231);
+	padding: 15px;
+}
+
+.bartersList__item input[type='text'] {
+	height: 2rem;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 5px 5px;
+}
+
+.bartersList__item-icons-edit {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.bartersList__item-icon-edit-wrapper {
+	display: flex;
+	align-items: center;
+	margin-left: 15px;
+}
+
+.bartersList__item-icons-edit input {
+	padding: 2px 8px;
+	border-radius: 5px;
+	margin-left: 5px;
+	cursor: pointer;
+	border: 1px solid #333;
+}
+
+.bartersList__item-icons-edit input:active {
+	transform: scale(0.97);
+}

@@ -1,0 +1,92 @@
+.bartersList__wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 65%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	border: 2px solid #333;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.bartersList__title {
+	background: rgb(59, 59, 59);
+	color: #fff;
+	padding: 15px;
+}
+
+.bartersList__error {
+	color: rgb(255, 0, 0);
+	font-style: italic;
+	padding: 15px;
+}
+
+.bartersList__button {
+	background: rgb(62, 138, 231);
+	color: #fff;
+	border: none;
+	padding: 15px 5px;
+	margin: 10px 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.bartersList__button:active {
+	transform: scale(0.97);
+}
+
+.bartersList__newBarter-form {
+	display: none;
+	flex-direction: column;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0px 2px 3px 2px rgba(34, 60, 80, 0.2);
+	margin: 0 10px 10px 10px;
+	padding: 5px;
+}
+
+.bartersList__newBarter-head {
+	background: rgb(62, 138, 231);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 10px;
+}
+
+.bartersList__newBarter-body {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px 0;
+}
+
+.bartersList__newBarter-form input {
+	height: 2rem;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 5px;
+	margin: 5px 5px;
+}
+
+.bartersList__newBarter-submit {
+	background: rgb(62, 138, 231);
+	color: #fff;
+	cursor: pointer;
+}
+
+.bartersList__newBarter-submit:active {
+	transform: scale(0.97);
+}
+
+.bartersList__newBarter-submit-error,
+.bartersList__newComment-submit-error,
+.bartersList__deleteBarter-error,
+.bartersList__deleteComment-error {
+	margin: 10px 15px;
+	color: rgb(255, 0, 0);
+	font-style: italic;
+	font-size: 13px;
+}

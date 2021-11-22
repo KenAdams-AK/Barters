@@ -1,0 +1,62 @@
+.reg__wrapper {
+	display: flex;
+	flex-direction: column;
+	max-width: 45%;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 15px;
+	border: 2px solid rgb(59, 59, 59);
+	border-radius: 15px;
+	box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.reg__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.reg__input {
+	height: 2rem;
+	outline: none;
+	margin: 5px;
+	border-radius: 5px;
+	border: 1px solid #333;
+	padding: 10px;
+}
+
+.reg__input[type='submit'] {
+	background: rgb(62, 138, 231);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.reg__input[type='submit']:active {
+	transform: scale(0.97);
+}
+
+.reg__input-error {
+	margin: 0 0 10px 10px;
+	color: rgb(255, 0, 0);
+	font-style: italic;
+	font-size: 13px;
+}
+
+.reg__success {
+	margin: 0 auto;
+	margin-top: 25px;
+}
+
+.reg__success h2,
+.reg__success h3 {
+	color: rgb(7, 225, 94);
+}
+
+.reg__success p {
+	margin-top: 25px;
+}
+
+.reg__success-link {
+	font-size: 1.3rem;
+	color: rgb(65, 103, 241);
+}
